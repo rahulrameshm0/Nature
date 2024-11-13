@@ -1,7 +1,22 @@
-# Ignore the node_modules folder, which contains project dependencies
-/node_modules/
+# Dependencies
+node_modules/
 
-# Ignore the dist/ folder where compiled files (e.g., CSS) are stored
-/dist/
+# Generated files
+style.css.map
+.sass-cache/
+style.css.map
+main.css.map
 
-# Ignore the style.css file (compiled CSS from Sass or other preprocessors)
+# Environment files
+.env
+.env.local
+
+# Build output
+/dist
+/build
+
+# IDE specific files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
