@@ -1,0 +1,7 @@
+# Ignore the node_modules folder, which contains project dependencies
+/node_modules/
+
+# Ignore the dist/ folder where compiled files (e.g., CSS) are stored
+/dist/
+
+# Ignore the style.css file (compiled CSS from Sass or other preprocessors)
