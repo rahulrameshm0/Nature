@@ -8,18 +8,10 @@
 @import "base/typography";
 @import "base/utility";
 
-@import "pages/pages";
-
 @import "layout/header";
+@import "layout/grid";
 
 @import "components/button";
 
-@import "pages/pages"
-
-
-
-/*  animation-delay: 3s;
-    animation-iteration-count: 3;
-*/
-
+@import "pages/pages";
 

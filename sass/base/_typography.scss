@@ -1,7 +1,6 @@
 body{
     font-family: "Lato", sans-serif;
     font-weight: 400;
-    // font-size: 16px;
     line-height: 1.7;
     color: $color-light-gary;
     padding: 30px;
@@ -9,7 +8,7 @@ body{
 
 
 
-& .heading-primary{
+.heading-primary{
     text-transform: uppercase;
     color:$color-primary;
     backface-visibility: hidden;
@@ -33,4 +32,21 @@ body{
     animation: moveInright;
     animation-duration: 1s;
     }      
+}
+
+.heading-secondary{
+    font-size: 3.5rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    -webkit-background-clip: text;
+    display: inline-block;
+    background-image: linear-gradient(to right, $color-primary-light,$color-primary-dark);
+    color: transparent;
+    transition: all .3s;
+    letter-spacing: .2rem;
+
+    &:hover{
+        transform: skewY(2deg) skewX(15deg) scale(1.1);
+        text-shadow: .5rem 1rem 2rem rgba($dark-color, 0.2);
+    }
 }

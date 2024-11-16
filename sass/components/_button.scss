@@ -8,6 +8,7 @@
         display: inline-block;
         transition: all 0.2s;
         position: relative;
+        font-size: 1.6rem;
 }
     &:hover{
         transform: translateY(-3px);
@@ -43,7 +44,7 @@
         transform: scaleX(1.5) scaleY(1.6);
         opacity: 0;
         }
-    & .btn-animated{
+    &.btn-animated{
         animation: moveInBottom .5s ease-out .75s;
         animation-fill-mode: backwards;
         }
