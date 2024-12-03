@@ -26,6 +26,14 @@
     &::after{
         background-color: $color-primary;
     }
+}
+
+.green-btn{
+    background-color:$color-primary-light;
+    color: $color-primary;
+    &::after{
+        background-color: $color-primary-light;
+    }
 
     &::after{
         content: "";
