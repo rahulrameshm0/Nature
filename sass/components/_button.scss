@@ -45,6 +45,7 @@
         top: 0;
         left: 0;
         z-index: -1;
+        background-color: $color-primary-light;
         transition: all 0.4s;
     }
 
@@ -70,7 +71,7 @@
         &:hover{
             background-color: $color-primary-dark;
             color: $color-primary;
-            transform: translateY(-2px);
+            transform: translateY(-2px);    
             box-shadow: 0 0.5rem 1rem rgba($dark-color,0.2);
         }
 
@@ -78,4 +79,4 @@
             transform: translate(-2px);
             box-shadow: 0 0.5rem 1rem rgba($dark-color,0.2);
         }
-    }
+    }   
