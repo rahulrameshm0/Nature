@@ -29,3 +29,19 @@
     background-color: $backgorund-color-light-gray;
     position:relative; 
 }
+
+.section-booking{
+    padding: 15rem 0;
+    background-image: linear-gradient(to right bottom, $color-primary-light,$color-primary-dark);}
+
+.book{
+    background: linear-gradient(105deg,
+                                        rgba($color-primary, .9) 0%,
+                                        rgba($color-primary, .9) 50%, 
+                                        transparent 50%),
+                                        url(../img/nat-10.jpg);
+    background-size: cover;
+    height: 50rem;
+    box-shadow: 0 1.5rem 4rem rgba($dark-color,0.15);
+    border-radius: $border-radious;
+}
