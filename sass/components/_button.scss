@@ -23,6 +23,25 @@
         transform: translateY(-0.1rem);
         box-shadow: 0 0.5rem 1rem rgba($dark-color,0.2);
     }
+    
+    &::after{
+        content: "";
+        display: inline-block;
+        height: 100%;
+        width: 100%;
+        border-radius: 10rem;
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: -1;
+        background-color: $color-primary-dark;
+        transition: all 0.4s;
+    }
+    
+    &.btn-animated{
+        animation: moveInBottom 0.5s ease-out 0.75s;
+        animation-fill-mode: backwards;
+        }
 }
 
 .btn-white{
@@ -42,27 +61,10 @@
         background-color: $color-primary-dark;
     }
 
-    &::after{
-        content: "";
-        display: inline-block;
-        height: 100%;
-        width: 100%;
-        border-radius: 10rem;
-        position: absolute;
-        top: 0;
-        left: 0;
-        z-index: -1;
-        background-color: $color-primary-dark;
-        transition: all 0.4s;
-    }
 
     &:hover::after{
         transform: scaleX(1.5) scaleY(1.6);
         opacity: 0;
-        }
-    &.btn-animated{
-        animation: moveInBottom .5s ease-out .75s;
-        animation-fill-mode: backwards;
         }
     }
 
