@@ -263,14 +263,36 @@
                             </div>
 
                             <div class="form__group">
-                                <input type="text" name="" id="name" placeholder="Full-Name" required="required">
-                                <label for="name" class="form-label">Full Name</label>
+                                <input type="text" name="" id="name" placeholder="Full Name" required="required" class="form__input">
+                                <label for="name" class="form__label">Full Name</label>
                             </div>
 
-                            <div class="form__grop">
-                                <input type="email" name="" id="email" placeholder="email" required="required"> 
-                                <label for="email">Email</label>
+                            <div class="form__group">
+                                <input type="email" name="" id="email" placeholder="Email" required="required" class="form__input"> 
+                                <label class="form__label" for="email">Email</label>
                             </div>
+
+                            <div class="form__group">
+                                 <div class="form__radio-group">
+                                    <input type="radio" id="small" class="form__radio-input" name="size">
+                                    <label class="form__radio-label" for="small">
+                                        <span class="form__radio-button"></span>
+                                        Small Tour Group
+                                    </label>
+                                 </div>
+
+                                 <div class="form__radio-group">
+                                    <input type="radio" id="large" class="form__radio-input" name="size">
+                                    <label class="form__radio-label" for="large">
+                                        <span class="form__radio-button"></span>
+                                        Large Tour Group
+                                    </label>
+                                </div>
+
+                                <div class="form__group">
+                                   <button class="btn btn--green">Next steo &rarr;</button>
+                                </div>
+                            </div> 
                         </form>
                     </div>
                 </div>
